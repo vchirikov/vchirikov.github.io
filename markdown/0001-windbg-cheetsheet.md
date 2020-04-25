@@ -1,7 +1,7 @@
 ---
 img: img/0001-01-windbg.png
 title: Windbg cheatsheet
-topic: WinDbg
+topic: Debugging
 ---
 
 If you're not familiar with WinDbg this information or links can be useful. Here I'm going to add tips, tricks, link to docs about WinDbg.
@@ -29,7 +29,7 @@ dotnet tool install -g dotnet-sos
 dotnet-sos install
 ```
 
-After this you can load sos by `!load %userprofile%\.dotnet\sos\sos.dll` command. change %userprofile% to your user profile directory.
+After this you can load sos by `!load %userprofile%\.dotnet\sos\sos.dll` command. change `%userprofile%` to your user profile directory.
 
 ## SOS commands
 
