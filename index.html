@@ -49,7 +49,7 @@
     (function () {
       Blazor.start({
         loadBootResource: function (type, name, defaultUri, integrity) {
-          if (name == "Microsoft.AspNetCore.Components.dll") {
+          if (name.startsWith("Microsoft.AspNetCore.")) {
             document.getElementById('loading-text').innerHTML = "Loading Blazor <p class='text-xl text-grey-400'>First loading may take a long time</p>";
           }
         }
