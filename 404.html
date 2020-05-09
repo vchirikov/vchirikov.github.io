@@ -33,7 +33,7 @@
     <app class="block flex-1 flex flex-col">
       <div class="container mx-auto overflow-hidden h-screen flex justify-center align-middle items-center text-center">
         <div class="flex-col">
-          <div class="text-3xl">Loading</div>
+          <div id="loading-text" class="text-3xl">Loading</div>
           <div class="sk-folding-cube">
             <div class="sk-cube1 sk-cube"></div>
             <div class="sk-cube2 sk-cube"></div>
@@ -44,7 +44,18 @@
       </div>
     </app>
   </div>
-  <script src="_framework/blazor.webassembly.js"></script>
+  <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+  <script>
+    (function () {
+      Blazor.start({
+        loadBootResource: function (type, name, defaultUri, integrity) {
+          if (name == "Microsoft.AspNetCore.Components.dll") {
+            document.getElementById('loading-text').innerHTML = "Loading Blazor <p class='text-xl text-grey-400'>First loading may take a long time</p>";
+          }
+        }
+      });
+    })();
+  </script>
   <script src="/dist/bundle.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js" integrity="sha256-l2UBp0BIlmKgfSSMlsHCOoKDJ4N7nE0mqxKZX/u3AJA=" crossorigin="anonymous"></script>
   <livereload />
