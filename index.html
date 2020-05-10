@@ -7,7 +7,7 @@
   <base href="/" />
   <link rel=icon href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha256-gzohnzxILb7OZZch6c8mySnK1r0yFviwmBR+1E5O0RM=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/railscasts.min.css" integrity="sha256-2HHD0kjXyBrN4fs7py+/QxoTS//xW2CpZCUVKi1QXKk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/railscasts.min.css" integrity="sha256-2HHD0kjXyBrN4fs7py+/QxoTS//xW2CpZCUVKi1QXKk=" crossorigin="anonymous" />
   <link href="dist/styles.css" rel="stylesheet" />
 </head>
 <body class="flex-1" style='background: #f4f3f1 url("img/bg.svg") repeat fixed;'>
@@ -44,20 +44,10 @@
       </div>
     </app>
   </div>
-  <script src="_framework/blazor.webassembly.js" autostart="false"></script>
-  <script>
-    (function () {
-      Blazor.start({
-        loadBootResource: function (type, name, defaultUri, integrity) {
-          if (name.startsWith("Microsoft.AspNetCore.")) {
-            document.getElementById('loading-text').innerHTML = "Loading Blazor <p class='text-xl text-grey-400'>First loading may take a long time</p>";
-          }
-        }
-      });
-    })();
-  </script>
+  <script src="_framework/blazor.webassembly.js"></script>
   <script src="/dist/bundle.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js" integrity="sha256-l2UBp0BIlmKgfSSMlsHCOoKDJ4N7nE0mqxKZX/u3AJA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/highlight.min.js" integrity="sha256-xBWd+VDTBasaTja2bfaCX4aA2H18UxRsjRFkK3rgfkI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/languages/powershell.min.js" integrity="sha256-v03qdXXMjznq8hHdMHf07MswtElrNQuraZROImL8kvQ=" crossorigin="anonymous"></script>
   <livereload />
 </body>
 </html>
