@@ -2,3 +2,4 @@
 0001-windbg-cheetsheet.md
 0002-httpclientfactory.md
 0003-nerdbank.gitversioning.md
+0004-windows-shells.md
