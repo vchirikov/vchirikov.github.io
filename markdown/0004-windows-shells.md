@@ -1,7 +1,7 @@
 ---
 img: img/0004-01-windows-shells.jpg
-title: Nerdbank.GitVersioning with Docker
-topic: Powershell
+title: Zsh on WSL2
+topic: Powershell WSL2
 ---
 
 Hi guys, today we will talk about wsl2 and I'll share tips about different shells on windows.
