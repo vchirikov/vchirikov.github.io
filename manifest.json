@@ -1,0 +1,149 @@
+{
+  "_chunk-340acbf2.js": {
+    "dynamicImports": [
+      "src/lib/client/components/yaml-playground/index.tsx"
+    ],
+    "file": "assets/chunk-340acbf2.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-704646a9.js"
+    ]
+  },
+  "_chunk-4f12729c.js": {
+    "file": "assets/chunk-4f12729c.js",
+    "imports": [
+      "_chunk-b9674078.js"
+    ]
+  },
+  "_chunk-5e8bbab2.js": {
+    "file": "assets/chunk-5e8bbab2.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-b9674078.js"
+    ]
+  },
+  "_chunk-6b0f39a3.js": {
+    "file": "assets/chunk-6b0f39a3.js"
+  },
+  "_chunk-704646a9.js": {
+    "file": "assets/chunk-704646a9.js"
+  },
+  "_chunk-afc3f033.js": {
+    "file": "assets/chunk-afc3f033.js",
+    "imports": [
+      "_chunk-4f12729c.js"
+    ]
+  },
+  "_chunk-b9674078.js": {
+    "file": "assets/chunk-b9674078.js"
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.86_vite@4.1.4/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "src/pages/blog/index.page.tsx",
+      "src/pages/blog/post.page.tsx",
+      "src/pages/renderer/_error.page.tsx",
+      "src/pages/renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entry-server-routing.d7fa78fe.js",
+    "imports": [
+      "_chunk-6b0f39a3.js",
+      "_chunk-704646a9.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.86_vite@4.1.4/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.86_vite@4.1.4/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "src/pages/blog/index.page.tsx",
+      "src/pages/blog/post.page.tsx",
+      "src/pages/renderer/_error.page.tsx",
+      "src/pages/renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entry-client-routing.b2d7e876.js",
+    "imports": [
+      "_chunk-6b0f39a3.js",
+      "_chunk-704646a9.js",
+      "_chunk-b9674078.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.86_vite@4.1.4/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "src/lib/client/components/yaml-playground/index.tsx": {
+    "file": "assets/index.0b0276e2.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-b9674078.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/client/components/yaml-playground/index.tsx"
+  },
+  "src/lib/shared/i18n/en/index.ts": {
+    "file": "assets/index.ae769b82.js",
+    "isDynamicEntry": true,
+    "src": "src/lib/shared/i18n/en/index.ts"
+  },
+  "src/lib/shared/i18n/ru/index.ts": {
+    "file": "assets/index.e3002f4b.js",
+    "isDynamicEntry": true,
+    "src": "src/lib/shared/i18n/ru/index.ts"
+  },
+  "src/pages/blog/index.page.tsx": {
+    "file": "assets/src/pages/blog/index.page.cbd3406d.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-340acbf2.js",
+      "_chunk-afc3f033.js",
+      "_chunk-5e8bbab2.js",
+      "_chunk-b9674078.js",
+      "_chunk-704646a9.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/blog/index.page.tsx"
+  },
+  "src/pages/blog/post.page.tsx": {
+    "file": "assets/src/pages/blog/post.page.05925518.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-340acbf2.js",
+      "_chunk-afc3f033.js",
+      "_chunk-5e8bbab2.js",
+      "_chunk-b9674078.js",
+      "_chunk-704646a9.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/blog/post.page.tsx"
+  },
+  "src/pages/renderer/_default.page.client.tsx": {
+    "dynamicImports": [
+      "src/lib/shared/i18n/en/index.ts",
+      "src/lib/shared/i18n/ru/index.ts"
+    ],
+    "file": "assets/src/pages/renderer/_default.page.client.4310c23a.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-afc3f033.js",
+      "_chunk-b9674078.js",
+      "_chunk-704646a9.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/renderer/_default.page.client.tsx"
+  },
+  "src/pages/renderer/_error.page.tsx": {
+    "file": "assets/src/pages/renderer/_error.page.c8b285fd.js",
+    "imports": [
+      "_chunk-4f12729c.js",
+      "_chunk-5e8bbab2.js",
+      "_chunk-b9674078.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/renderer/_error.page.tsx"
+  },
+  "style.css": {
+    "file": "assets/style.f2262c92.css",
+    "src": "style.css"
+  }
+}
